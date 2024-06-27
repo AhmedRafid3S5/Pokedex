@@ -1,0 +1,10 @@
+CREATE TABLE `pokedex`.`pokemons` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `image` VARCHAR(500) NULL,
+  `name` VARCHAR(100) NULL,
+  `weight` FLOAT NULL,
+  `height` FLOAT NULL,
+  `type` VARCHAR(100) NULL,
+  `evolvesTo` VARCHAR(45) NULL,
+  `description` VARCHAR(500) NULL,
+  PRIMARY KEY (`id`));
